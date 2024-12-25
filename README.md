@@ -23,8 +23,6 @@ const GithubProfile = () => {
           AI/ML Engineer | Deep Learning Enthusiast
         </p>
       </div>
-
-      {/* About Section */}
       <Card className="hover:shadow-lg transition-shadow duration-300">
         <CardContent className="p-6">
           <div className="flex items-center space-x-2 mb-4">
@@ -47,8 +45,6 @@ const GithubProfile = () => {
           </div>
         </CardContent>
       </Card>
-
-      {/* Skills Section */}
       <Card className="hover:shadow-lg transition-shadow duration-300">
         <CardContent className="p-6">
           <h2 className="text-2xl font-semibold mb-4">Skills</h2>
@@ -70,8 +66,6 @@ const GithubProfile = () => {
           </div>
         </CardContent>
       </Card>
-
-      {/* Connect Section */}
       <div className="flex justify-center space-x-4">
         <a href="#" className="p-2 rounded-full hover:bg-gray-100 transition-colors duration-300">
           <Github className="w-6 h-6" />
